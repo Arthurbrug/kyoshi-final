@@ -1,0 +1,135 @@
+<fieldset>
+        <legend>Preencha aqui</legend>
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" name="nome"><br>
+
+        <label for="password">Senha</label>
+        <input type="password" name="password" id="password"> <br>
+
+        <label for="email"> Email</label>
+        <input type="email" name="email" id="email"> <br>
+
+        <label for="url">Endereço </label>
+        <input type="url" name="url" id="url"> <br>
+
+        <label for="search">Pesquisa</label>
+        <input type="search" name="search" id="search"> <br>
+
+        <label for="telefone">Telefone</label>
+        <input type="tel" name="telefone" id="telefone"> <br>
+
+        <label for="cor">Color</label>
+        <input type="color" name="cor" id="cor">  <br>
+
+        <label for="arquivo">Arquivo</label>
+        <input type="file" name="arquivo" id="arquivo"> <br><br><br><br><br>
+
+        <h2>Datas</h2>
+        <label for="data">Data</label>
+        <input type="date" name="data" id="data"> <br>
+
+        <label for="time">Hora</label>
+        <input type="time" name="time" id="time"> <br>
+
+        <label for="Datatime">Data Horario</label>
+        <input type="datetime-local" name="DataTime" id="Datatime"> <br>
+
+        <label for="Semana">Semana</label>
+        <input type="week" name="Semana" id="Semana"> <br>
+
+        <label for="mes">Mês</label>
+        <input type="month" name="mes" id="mes"> <br><br><br><br><br>
+        </fieldset>
+<fieldset>
+        <h1>Campos de numero</h1>
+
+        <label for="numero">Numero</label>
+        <input type="number" name="numero" id="numero"
+        min="10" max="100" step="5"> <br>
+
+        <label for="range">Range</label>
+        <input type="range" name="range" id="range"
+        min="1" max="100" step="5"> <br> <br><br><br><br><br><br>
+    </fieldset>
+    <fieldset>
+        <h2>Check</h2>
+        <p>Tipo de conta</p>
+        <input type="radio" name="conta" id="conta1" value="free">
+        <label for="conta1">Free</label>
+        <input type="radio" name="conta" id="conta2" value="basic">
+        <label for="conta2">Basic</label>
+        <input type="radio" name="conta" id="conta3" value="plus">
+        <label for="conta3">Plus</label>
+        <input type="radio" name="conta" id="conta4" value="premium">
+        <label for="conta4">Premium</label>
+<br><br><br><br><br>
+
+        <h2>Check Box Selecionar varios</h2>
+        <p>Preferencia</p>
+        <input type="checkbox" id="prefrencia1" name="Front-End" value="Front-End">
+        <label for="prefrencia1">Front-End</label>
+        <input type="checkbox" id="prefrencia2" name="Back-End" value="Front-End">
+        <label for="prefrencia2">Back-End</label>
+        <input type="checkbox" id="prefrencia3" name="uxui" value="uxui">
+        <label for="prefrencia3">Ux/UI</label>
+        <input type="checkbox" id="prefrencia4" name="dados" value="dados">
+        <label for="prefrencia4">Dados</label>
+    </fieldset>
+
+   
+
+    <fieldset>
+        <legend>Campo de select</legend>
+        <label for="atuacao">Area de atuação</label>
+        <select name="atuacao" id="atuacao">
+            <option value="0" disabled selected>Selecione sua opção</option>
+            <option value="1">Front-End</option>
+            <option value="2">Back-End</option>
+            <option value="3">Banco de dados</option>
+            <option value="4">UX/UI</option>
+        </select>
+    </fieldset>
+
+    <fieldset>
+        <legend>DataList</legend>
+        <input list="linguagem" id="lista-de-linguagen">
+        <datalist id="linguagem">
+            <option value="html">
+            <option value="css">
+            <option value="Java">
+            <option value="Python">
+        </datalist>
+    </fieldset> 
+    
+    <form id="dado" name="dado" method="post" action="">
+    <fieldset>
+        <legend>Text Area</legend>
+        <label for="mensagem">Mensagem</label> <br>
+        <textarea name="mensagem" id="mensagem"></textarea>
+    </fieldset>
+    </form>
+     
+        <fieldset>
+            <legend>Botões Input</legend>
+            <input type="submit"  name="" id="" value="Criar conta">
+            <input type="reset" name="" id="" value="Limpar dados">
+            <input type="button" name="" id="" value="chamar java Script">
+        </fieldset>
+
+        <fieldset>
+            <legend>Botões Button</legend>
+            <button type="submit">Criar conta</button>
+            <button type="reset">limpar dados</button>
+            <button type="button">Chamar js</button>
+        </fieldset> <br><br><br><br><br><br><br>
+        <form id="dados" name="dados" method="post" action="">
+            <fieldset>
+                <label for="usuario">Usuario</label>
+                <input type="text" id="usuario" name="usuario" required placeholder="preencha aqui" minlength="5" maxlength="15"
+                autofocus>
+            </fieldset>
+    
+            <fieldset>
+                <input type="submit" value="enviar dados">
+            </fieldset>
+        </form>
